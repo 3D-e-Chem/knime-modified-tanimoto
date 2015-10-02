@@ -4,6 +4,25 @@ Knime plugin for calculating distance of bitvector using Modifed Tanimoto simila
 
 Followed http://tech.knime.org/wiki/distance-measure-developers-guide for this repo. 
 
+# Installation
+
+Requirements:
+
+* KNIME, https://www.knime.org
+* KNIME Distance Matrix feature, if missing see development chapter step 4  
+
+Steps to get distance measure inside KNIME:
+
+1. Goto last release at https://github.com/3D-e-Chem/knime-modified-tanimoto/releases
+2. Download jar file
+3. Copy jar file to dropins/ folder inside KNIME installation.
+
+# Usage
+
+The Modified Tanimoto distance measure can be selected inside the `Bit Vector Distances` node.
+
+For description of distance measurement framework see http://tech.knime.org/wiki/distance-measure 
+
 # Development
 
 Steps to get development enviroment setup:
