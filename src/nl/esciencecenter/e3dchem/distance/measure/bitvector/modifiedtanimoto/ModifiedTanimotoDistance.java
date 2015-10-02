@@ -46,12 +46,12 @@ public final class ModifiedTanimotoDistance extends
 		double corr_st = (2 - p0) / 3;
 		double corr_sto = (1 + p0) / 3;
 		double n = av.length();
-
 		double a = av.cardinality();
 		double b = bv.cardinality();
 		double c = BitVectorUtil.cardinalityOfIntersection(av, bv);
+
 		double st = c / (a + b - c);
-		double st0 = (n - a - b - +c) / (n - c);
+		double st0 = (n - a - b + c) / (n - c);
 		double smt = corr_st * st + corr_sto * st0;
 
 		return smt;

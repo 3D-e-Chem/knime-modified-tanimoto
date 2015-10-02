@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: ModifiedTanimoto
 Bundle-SymbolicName: nl.esciencecenter.e3dchem.distance.measure.bitvector.modifiedtanimoto;singleton:=true
-Bundle-Version: 1.0.0
+Bundle-Version: 1.0.1
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Require-Bundle: org.knime.distmatrix;bundle-version="2.12.1",
  org.knime.core;bundle-version="2.12.1",
