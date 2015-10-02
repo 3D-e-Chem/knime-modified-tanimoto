@@ -1,4 +1,4 @@
-package nl.esciencecenter.e3dchem.distance.measure.bitvector;
+package nl.esciencecenter.e3dchem.distance.measure.bitvector.modifiedtanimoto;
 
 import org.knime.base.util.flowvariable.FlowVariableProvider;
 import org.knime.core.data.DataTableSpec;

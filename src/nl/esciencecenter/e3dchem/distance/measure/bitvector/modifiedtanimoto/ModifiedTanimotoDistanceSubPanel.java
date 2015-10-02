@@ -1,4 +1,4 @@
-package nl.esciencecenter.e3dchem.distance.measure.bitvector;
+package nl.esciencecenter.e3dchem.distance.measure.bitvector.modifiedtanimoto;
 
 import java.awt.BorderLayout;
 import java.awt.Component;

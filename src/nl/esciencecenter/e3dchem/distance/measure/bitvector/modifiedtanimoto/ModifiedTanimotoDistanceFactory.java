@@ -1,4 +1,4 @@
-package nl.esciencecenter.e3dchem.distance.measure.bitvector;
+package nl.esciencecenter.e3dchem.distance.measure.bitvector.modifiedtanimoto;
 
 import org.knime.distance.category.DistanceCategorySubPanel;
 import org.knime.distance.measure.bitvector.BitVectorDistanceMeasureFactory;

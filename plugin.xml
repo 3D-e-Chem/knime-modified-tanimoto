@@ -4,8 +4,8 @@
    <extension
          point="org.knime.distmatrix.distanceMeasures">
       <DistanceMeasure
-            factoryClass="org.knime.distance.measure.bitvector.BitVectorDistanceMeasureFactory"
-            id="nl.esciencecenter.e3dchem.distance.measure.bitvector.ModifiedTanimoto">
+            factoryClass="nl.esciencecenter.e3dchem.distance.measure.bitvector.modifiedtanimoto.ModifiedTanimotoDistanceFactory"
+            id="nl.esciencecenter.e3dchem.distance.measure.bitvector.modifiedtanimoto.ModifiedTanimotoDistanceFactory">
       </DistanceMeasure>
    </extension>
 

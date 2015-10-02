@@ -1,4 +1,4 @@
-package nl.esciencecenter.e3dchem.distance.measure.bitvector;
+package nl.esciencecenter.e3dchem.distance.measure.bitvector.modifiedtanimoto;
 
 import org.knime.core.data.DataRow;
 import org.knime.core.data.DataTableSpec;
@@ -45,11 +45,11 @@ public final class ModifiedTanimotoDistance extends
 		double p0 = getConfig().getMeanBitDensity();
 		double corr_st = (2 - p0) / 3;
 		double corr_sto = (1 + p0) / 3;
-		long n = av.length();
+		double n = av.length();
 
-		long a = av.cardinality();
-		long b = bv.cardinality();
-		long c = BitVectorUtil.cardinalityOfIntersection(av, bv);
+		double a = av.cardinality();
+		double b = bv.cardinality();
+		double c = BitVectorUtil.cardinalityOfIntersection(av, bv);
 		double st = c / (a + b - c);
 		double st0 = (n - a - b - +c) / (n - c);
 		double smt = corr_st * st + corr_sto * st0;
