@@ -1,5 +1,7 @@
 # Modified Tanimoto distance measure for Knime
 
+[![Build Status](https://travis-ci.org/3D-e-Chem/knime-modified-tanimoto.svg)](https://travis-ci.org/3D-e-Chem/knime-modified-tanimoto)
+
 Knime plugin for calculating distance of bitvector using Modifed Tanimoto similarity index.
 
 Followed http://tech.knime.org/wiki/distance-measure-developers-guide for this repo. 
