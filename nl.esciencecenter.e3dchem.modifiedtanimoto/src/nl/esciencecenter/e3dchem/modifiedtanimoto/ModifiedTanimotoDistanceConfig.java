@@ -1,4 +1,4 @@
-package nl.esciencecenter.e3dchem.distance.measure.bitvector.modifiedtanimoto;
+package nl.esciencecenter.e3dchem.modifiedtanimoto;
 
 import org.knime.base.util.flowvariable.FlowVariableProvider;
 import org.knime.core.data.DataTableSpec;
@@ -9,7 +9,7 @@ import org.knime.distance.util.propertyresolver.Configuration;
 import org.knime.distance.util.propertyresolver.Property;
 
 @Configuration
-final class ModifiedTanimotoDistanceConfig extends
+public final class ModifiedTanimotoDistanceConfig extends
 		DistanceCategoryConfig<ModifiedTanimotoDistance> {
 
 	@Property("meanBitDensity")

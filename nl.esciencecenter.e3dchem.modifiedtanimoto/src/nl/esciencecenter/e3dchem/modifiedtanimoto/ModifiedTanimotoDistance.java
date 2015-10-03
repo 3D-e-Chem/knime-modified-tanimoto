@@ -1,4 +1,4 @@
-package nl.esciencecenter.e3dchem.distance.measure.bitvector.modifiedtanimoto;
+package nl.esciencecenter.e3dchem.modifiedtanimoto;
 
 import org.knime.core.data.DataRow;
 import org.knime.core.data.DataTableSpec;
