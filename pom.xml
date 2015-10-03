@@ -5,11 +5,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>nl.esciencecenter.e3dchem</groupId>
 	<artifactId>nl.esciencecenter.e3dchem</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<modules>
 		<module>nl.esciencecenter.e3dchem.modifiedtanimoto</module>
 		<module>nl.esciencecenter.e3dchem.modifiedtanimoto.tests</module>
+		<module>nl.esciencecenter.e3dchem.modifiedtanimoto.feature</module>
+  		<module>nl.esciencecenter.e3dchem.p2</module>
 	</modules>
 	<properties>
 		<knime.version>2.12</knime.version>

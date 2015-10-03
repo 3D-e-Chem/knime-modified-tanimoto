@@ -32,6 +32,7 @@ mvn verify
 ```
 
 Jar has been made in `nl.esciencecenter.e3dchem.modifiedtanimoto/target` folder.
+A Eclipse update site will be made in `nl.esciencecenter.e3dchem.p2/target/repository` folder.
 
 # Development
 
