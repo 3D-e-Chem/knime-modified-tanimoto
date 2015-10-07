@@ -11,13 +11,16 @@ Followed http://tech.knime.org/wiki/distance-measure-developers-guide for this r
 Requirements:
 
 * KNIME, https://www.knime.org
-* KNIME Distance Matrix feature, if missing see development chapter step 4  
 
 Steps to get distance measure inside KNIME:
 
-1. Goto last release at https://github.com/3D-e-Chem/knime-modified-tanimoto/releases
-2. Download zip file
-3. Copy jar file to dropins/ folder inside KNIME installation.
+1. Goto Help > Install new software ... menu
+2. Press add button
+3. Fill text fields with `https://3d-e-chem.github.io/updates`
+4. Select --all sites-- in work with pulldown
+5. Open KNIME 3D-e-Chem Contributions folder
+6. Select Modified Tanimoto Distance measure
+7. Install sofware & restart
 
 # Usage
 
@@ -32,7 +35,7 @@ mvn verify
 ```
 
 Jar has been made in `nl.esciencecenter.e3dchem.modifiedtanimoto/target` folder.
-A archived eclipse update site will be made as `nl.esciencecenter.e3dchem.p2/target/nl.esciencecenter.e3dchem.p2-<version>.zip`.
+An Eclipse update site will be made in `nl.esciencecenter.e3dchem.p2/target/repository` repository.
 
 # Development
 
@@ -60,11 +63,8 @@ During import the Tycho Eclipse providers must be installed.
 
 1. Update versions in pom files with `mvn org.eclipse.tycho:tycho-versions-plugin:set-version -DnewVersion=<version>` command.
 2. Manually update version of "source" feature in `nl.esciencecenter.e3dchem.p2/category.xml` file.
-4. Create package with `mvn package`
-5. Create a Github release with new version
-5.1 Add `nl.esciencecenter.e3dchem.p2/target/nl.esciencecenter.e3dchem.p2-<version>.zip` file to Github Release
-6. Checkout `master` branch of 3d-e-chem/3d-e-chem.github.io repo
-6.1 Add new child version to `compositeArtifacts.xml` and `compositeContent.xml`
-
-
-
+3. Commit and push changes
+3. Create package with `mvn package`
+4. Make clone of https://github.com/3D-e-Chem/3D-e-Chem.github.io repo
+5. Copy `nl.esciencecenter.e3dchem.p2/target/repository` to `3D-e-Chem.github.io/updates`
+6. Commit and push changes in this repo and 3D-e-Chem.github.io repo
