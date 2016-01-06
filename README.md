@@ -48,7 +48,7 @@ Steps to get development enviroment setup:
 4. Install distance matrix nodes + m2e (Maven integration for Eclipse)
 
     1. Goto Help > Install new software ...
-    2. Make sure Update site is http://update.knime.org/analytics-platform/2.12 in the pull down list otherwise add it
+    2. Make sure Update site is http://update.knime.org/analytics-platform/3.1 in the pull down list otherwise add it
     3. Select --all sites-- in work with pulldown
     4. Open KNIME & Extensions folder
     5. Select KNIME Distance Matrix
