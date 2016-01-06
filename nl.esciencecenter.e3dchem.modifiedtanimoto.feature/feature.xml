@@ -2,14 +2,16 @@
 <feature
       id="nl.esciencecenter.e3dchem.modifiedtanimoto.feature"
       label="Modified Tanimoto Distance measure"
-      version="1.0.4">
+      version="1.0.4"
+      provider-name="Netherlands eScience Center"
+      >
 
    <description>
       Knime plugin for calculating distance of bitvector using Modifed Tanimoto similarity index.
    </description>
 
    <copyright>
-      Copyright Nederlands eScience Center 2015
+      Copyright Netherlands eScience Center 2015
    </copyright>
 
    <license url="https://www.apache.org/licenses/LICENSE-2.0.txt">
