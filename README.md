@@ -1,7 +1,7 @@
 # Modified Tanimoto distance measure for Knime
 
 [![Build Status](https://travis-ci.org/3D-e-Chem/knime-modified-tanimoto.svg)](https://travis-ci.org/3D-e-Chem/knime-modified-tanimoto)
-[![Codacy Badge](https://api.codacy.com/project/badge/grade/3b011b3dedf84c84953d26b66e636689)](https://www.codacy.com/app/sverhoeven/knime-modified-tanimoto)
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/3b011b3dedf84c84953d26b66e636689)](https://www.codacy.com/app/NLeSC/knime-modified-tanimoto)
 
 Knime plugin for calculating distance of bitvectors using Modifed Tanimoto similarity index.
 
