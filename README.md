@@ -29,6 +29,8 @@ The Modified Tanimoto distance measure can be selected inside the `Bit Vector Di
 
 For description of distance measurement framework see http://tech.knime.org/wiki/distance-measure
 
+See example workflow in [examples](examples) folder.
+
 # Build
 
 ```
