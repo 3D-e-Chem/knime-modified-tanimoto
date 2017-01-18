@@ -2,7 +2,7 @@
 <feature
       id="nl.esciencecenter.e3dchem.modifiedtanimoto.feature"
       label="Modified Tanimoto Distance measure"
-      version="1.0.4"
+      version="1.0.5"
       provider-name="Netherlands eScience Center"
       >
 
