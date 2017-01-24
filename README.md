@@ -73,11 +73,5 @@ During import the Tycho Eclipse providers must be installed.
   1. Make clone of https://github.com/3D-e-Chem/3D-e-Chem.github.io repo
   2. Append release to 3D-e-Chem update site with `mvn install -Dtarget.update.site=<3D-e-Chem repo/updates>`
 5. Commit and push changes in this repo and 3D-e-Chem.github.io repo
+6. Make nodes available to 3D-e-Chem KNIME feature by following steps at https://github.com/3D-e-Chem/knime-node-collection#new-release
 
-## Offline Knime update site
-
-If Knime update site can not be contacted then use a local version.
-
-1. Download zip of update site from https://www.knime.org/downloads/update
-2. Unzip it
-3. To maven commands add `-Dknime.update.site=file://-Dknime.update.site=file://<path to update site directory>`
