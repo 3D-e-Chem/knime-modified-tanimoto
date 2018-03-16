@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>nl.esciencecenter.e3dchem</groupId>
     <artifactId>nl.esciencecenter.e3dchem</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <packaging>pom</packaging>
 
     <organization>
@@ -53,6 +53,11 @@
             <id>knime</id>
             <layout>p2</layout>
             <url>${knime.update.site}</url>
+        </repository>
+        <repository>
+            <id>3d-e-chem</id>
+            <layout>p2</layout>
+            <url>https://3d-e-chem.github.io/updates</url>
         </repository>
     </repositories>
     <build>
