@@ -21,6 +21,6 @@ authors:
   family-names: Ritschel
   affiliation: UMC Nijmegen
 version: https://github.com/3D-e-Chem/knime-modified-tanimoto/releases/tag/v1.0.4
-date-released: '2016-01-28'
+date-released: 2016-01-28
 repository-code: https://github.com/3D-e-Chem/knime-modified-tanimoto/releases/tag/v1.0.4
 license: Apache-2.0
