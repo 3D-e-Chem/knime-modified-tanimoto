@@ -1,7 +1,6 @@
 # Modified Tanimoto distance measure for Knime
 
 [![Build Status](https://travis-ci.org/3D-e-Chem/knime-modified-tanimoto.svg)](https://travis-ci.org/3D-e-Chem/knime-modified-tanimoto)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3b011b3dedf84c84953d26b66e636689)](https://www.codacy.com/app/3D-e-Chem/knime-modified-tanimoto?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=3D-e-Chem/knime-modified-tanimoto&amp;utm_campaign=Badge_Grade)
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45270.svg)](http://dx.doi.org/10.5281/zenodo.45270)
 
 Knime plugin for calculating distance of bitvectors using Modifed Tanimoto similarity index.
@@ -44,31 +43,33 @@ An Eclipse update site will be made in `nl.esciencecenter.e3dchem.p2/target/repo
 
 # Development
 
-Steps to get development enviroment setup:
+Steps to get development environment setup based on https://github.com/knime/knime-sdk-setup#sdk-setup:
 
-1. Download KNIME SDK from https://www.knime.org/downloads/overview
-2. Install/Extract/start KNIME SDK
-3. Start SDK
-4. Install distance matrix nodes + m2e (Maven integration for Eclipse)
-
-    1. Goto Help > Install new software ...
-    2. Make sure Update site is http://update.knime.org/analytics-platform/3.1 in the pull down list otherwise add it
-    3. Select --all sites-- in work with pulldown
-    4. Open KNIME & Extensions folder
-    5. Select KNIME Distance Matrix
-    6. Open General Purpose Tools folder
-    7. Select m2e (Maven integration for Eclipse)
-    8. Install sofware & restart
-
-5. Import this repo as an Existing Maven project
+1. Install Java 8
+2. Install Eclipse for [RCP and RAP developers](https://www.eclipse.org/downloads/packages/release/2018-12/r/eclipse-ide-rcp-and-rap-developers)
+3. Configure Java 8 inside Eclipse Window > Preferences > Java > Installed JREs
+4. Import this repo as an Existing Maven project
+5. Activate target platform by going to Window > Preferences > Plug-in Development > Target Platform and check the `KNIME Analytics Platform (4.0) - nl.esciencecenter.e3dchem.knime.sstea.targetplatform/KNIME-AP-4.0.target` target definition.
 
 During import the Tycho Eclipse providers must be installed.
 
+## Tests
+
+Tests for the node are in `tests/src` directory.
+Tests can be executed with `mvn verify`, they will be run in a separate Knime environment.
+
+### Unit tests
+
+Unit tests written in Junit4 format can be put in `nl.esciencecenter.e3dchem.modifiedtanimoto.tests/src/java`.
+
+### Workflow tests
+
+See https://github.com/3D-e-Chem/knime-testflow#3-add-test-workflow
+
 # New release
 
-1. Update versions in pom files with `mvn org.eclipse.tycho:tycho-versions-plugin:set-version -DnewVersion=<version>` command.
-2. Manually update version of "source" feature in `nl.esciencecenter.e3dchem.p2/category.xml` file.
-3. Commit and push changes
+1. Update versions in pom files with `mvn org.eclipse.tycho:tycho-versions-plugin:set-version -DnewVersion=<version>-SNAPSHOT` command.
+2. Commit and push changes
 3. Create package with `mvn package`, will create update site in `nl.esciencecenter.e3dchem.p2/target/repository`
 4. Append new release to 3D-e-Chem update site
   1. Make clone of https://github.com/3D-e-Chem/3D-e-Chem.github.io repo
