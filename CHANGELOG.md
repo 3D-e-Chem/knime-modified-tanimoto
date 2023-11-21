@@ -5,6 +5,12 @@ Formatted as described on http://keepachangelog.com/
 
 ## [Unreleased]
 
+## [1.0.7] - 2023-11-21
+
+### Changes
+
+- Requires KNIME 5.1
+
 ## [1.0.6] - 2019-06-26
 
 ### Changes
@@ -17,9 +23,6 @@ Formatted as described on http://keepachangelog.com/
 
 - Compliant with Knime 3.1.0
 
-
 ## [1.0.1] - 2015-10-02
 
 Initial release
-
-
