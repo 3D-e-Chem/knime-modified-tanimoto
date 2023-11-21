@@ -23,9 +23,6 @@ Formatted as described on http://keepachangelog.com/
 
 - Compliant with Knime 3.1.0
 
-
 ## [1.0.1] - 2015-10-02
 
 Initial release
-
-
