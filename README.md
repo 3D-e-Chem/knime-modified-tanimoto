@@ -1,11 +1,12 @@
 # Modified Tanimoto distance measure for Knime
 
 [![Java CI with Maven](https://github.com/3D-e-Chem/knime-modified-tanimoto/actions/workflows/ci.yml/badge.svg)](https://github.com/3D-e-Chem/knime-modified-tanimoto/actions/workflows/ci.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3257714.svg)](https://doi.org/10.5281/zenodo.3257714)
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45270.svg)](http://dx.doi.org/10.5281/zenodo.45270)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=3D-e-Chem_knime-modified-tanimoto&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=3D-e-Chem_knime-modified-tanimoto)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=3D-e-Chem_knime-modified-tanimoto&metric=coverage)](https://sonarcloud.io/summary/new_code?id=3D-e-Chem_knime-modified-tanimoto)
 
-Knime plugin for calculating distance of bitvectors using Modifed Tanimoto similarity index.
+KNIME plugin for calculating distance of bitvectors using Modifed Tanimoto similarity index.
 Implements similarity index according to Fligner, Michael A., et al. “A Modification of the Jaccard-Tanimoto Similarity Index for Diverse Selection of Chemical Compounds Using Binary Strings.” Technometrics, vol. 44, no. 2, 2002, pp. 110–119. https://www.jstor.org/stable/1271255
 
 Followed http://tech.knime.org/wiki/distance-measure-developers-guide for this repo.
@@ -51,7 +52,11 @@ Steps to get development environment setup based on https://github.com/knime/kni
 2. Install Eclipse for [RCP and RAP developers](https://www.eclipse.org/downloads/packages/installer)
 3. Configure Java 17 inside Eclipse Window > Preferences > Java > Installed JREs
 4. Import this repo as an Existing Maven project
+<<<<<<< HEAD
 5. Activate target platform by going to Window > Preferences > Plug-in Development > Target Platform and check the `KNIME Analytics Platform (5.1) - nl.esciencecenter.e3dchem.knime.sstea.targetplatform/KNIME-AP-5.1.target` target definition.
+=======
+5. Activate target platform by going to Window > Preferences > Plug-in Development > Target Platform and check the `KNIME Analytics Platform (4.0) - nl.esciencecenter.e3dchem.modifiedtanimoto.targetplatform/KNIME-AP-4.0.target` target definition.
+>>>>>>> origin/master
 
 During import the Tycho Eclipse providers must be installed.
 
